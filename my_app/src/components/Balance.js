@@ -1,5 +1,5 @@
-import React from 'react';
-import { GlobalContext, useContext } from '../context/GlobalState';
+import React, { useContext } from 'react';
+import { GlobalContext } from '../context/GlobalState';
 
 export default function Balance() {
   const { transactions } = useContext(GlobalContext);
