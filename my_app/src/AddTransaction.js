@@ -22,6 +22,5 @@ export default function AddTransaction() {
         <button className="btn">Add transaction</button>
       </htmlForm> 
       </>
-      
   )
 }
